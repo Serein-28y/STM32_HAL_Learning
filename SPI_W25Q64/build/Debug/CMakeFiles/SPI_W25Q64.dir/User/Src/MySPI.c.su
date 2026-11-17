@@ -1,0 +1,5 @@
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/MySPI.c:10:6:MySPI_W_SS	16	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/MySPI.c:23:6:MySPI_Init	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/MySPI.c:33:6:MySPI_Start	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/MySPI.c:43:6:MySPI_Stop	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/MySPI.c:55:9:MySPI_SwapByte	32	static

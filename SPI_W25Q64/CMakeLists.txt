@@ -49,6 +49,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     User/Src/OLED.c
     User/Src/OLED_Data.c
     User/Src/W25Q64.c
+    User/Src/MySPI.c
 
 )
 

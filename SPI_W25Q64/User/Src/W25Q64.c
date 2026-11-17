@@ -1,4 +1,4 @@
-#include "stm32f10x.h"                  // Device header
+#include "W25Q64.h"
 #include "MySPI.h"
 #include "W25Q64_Ins.h"
 

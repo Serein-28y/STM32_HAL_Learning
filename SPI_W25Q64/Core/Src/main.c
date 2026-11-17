@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "OLED.h"
+#include "W25Q64.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,7 +47,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint8_t  MID;                                   // 厂商 ID
+uint16_t DID;                                   // 设备 ID
+uint8_t  ArrayWrite[] = {0x01, 0x02, 0x03, 0x04}; // 要写入的数据
+uint8_t  ArrayRead[4];                          // 读回的数据
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,12 +98,44 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   OLED_Init();
-  /* USER CODE END 2 */
+  W25Q64_Init();
 
+  /* 固定文字（8x16 字体：每字符宽 8 像素，每行高 16 像素） */
+  OLED_ShowString(0,  0, "MID:   DID:", OLED_8X16);
+  OLED_ShowString(0, 16, "W:", OLED_8X16);
+  OLED_ShowString(0, 32, "R:", OLED_8X16);
+
+  /* 1. 读 ID */
+  W25Q64_ReadID(&MID, &DID);
+  OLED_ShowHexNum(32, 0, MID, 2, OLED_8X16);   // 应显示 EF
+  OLED_ShowHexNum(88, 0, DID, 4, OLED_8X16);   // 应显示 4017
+
+  /* 2~4. 擦除 → 写入 → 读回 */
+  //W25Q64_SectorErase(0x000000);                // 先擦除（铁律③）
+  //W25Q64_PageProgram(0x000000, ArrayWrite, 4); // 写入 4 字节
+  W25Q64_ReadData(0x000000, ArrayRead, 4);     // 读回 4 字节
+
+  /* 5. 显示 */
+  for (uint8_t i = 0; i < 4; i++)
+  {
+    OLED_ShowHexNum(24 + i * 24, 16, ArrayWrite[i], 2, OLED_8X16);
+    OLED_ShowHexNum(24 + i * 24, 32, ArrayRead[i],  2, OLED_8X16);
+  }
+
+  OLED_Update();   // 本 OLED 驱动是显存缓冲式，Show 之后必须 Update 才会真正刷到屏上
+  /* USER CODE END 2 */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    
+
+
+
+
+
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

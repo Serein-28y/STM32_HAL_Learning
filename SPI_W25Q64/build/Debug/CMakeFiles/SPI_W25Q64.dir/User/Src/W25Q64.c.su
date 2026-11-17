@@ -1,0 +1,7 @@
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:10:6:W25Q64_Init	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:21:6:W25Q64_ReadID	16	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:37:6:W25Q64_WriteEnable	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:49:6:W25Q64_WaitBusy	16	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:75:6:W25Q64_PageProgram	32	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:100:6:W25Q64_SectorErase	16	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/User/Src/W25Q64.c:121:6:W25Q64_ReadData	40	static

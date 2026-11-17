@@ -43,13 +43,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 70,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -155,7 +155,8 @@
 				9,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		},
 		{
@@ -288,7 +289,8 @@
 				9,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		},
 		{
@@ -302,7 +304,6 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				14,
 				15,
 				16,
 				17,
@@ -315,7 +316,8 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28
 			]
 		}
 	],
@@ -402,6 +404,12 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "User/Src/W25Q64.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "User/Src/MySPI.c",
 			"sourceGroupIndex" : 1
 		},
 		{
