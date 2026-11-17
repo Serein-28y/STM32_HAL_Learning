@@ -1,0 +1,3 @@
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/Core/Src/spi.c:30:6:MX_SPI1_Init	8	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/Core/Src/spi.c:62:6:HAL_SPI_MspInit	40	static
+D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/Core/Src/spi.c:96:6:HAL_SPI_MspDeInit	16	static

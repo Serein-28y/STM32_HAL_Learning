@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
   #include "OLED.h "
+#include "OLED.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,11 +89,8 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   OLED_Init();
-  OLED_ShowString(0, 0, "Hello World!", OLED_8X16);
-  OLED_ShowString(0, 16, "OLED Test", OLED_8X16);
-  OLED_ShowNum(0, 32, 1234567890, 10, OLED_8X16);
-
   OLED_Update();
+  OLED_ShowString(0, 0,"test", OLED_8X16);
   /* USER CODE END 2 */
 
   /* Infinite loop */

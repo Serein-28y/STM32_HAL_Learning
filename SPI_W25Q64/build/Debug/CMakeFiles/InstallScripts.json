@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake_install.cmake",
+		"D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
