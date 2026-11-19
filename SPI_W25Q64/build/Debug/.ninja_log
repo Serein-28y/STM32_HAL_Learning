@@ -1,5 +1,5 @@
 # ninja log v7
-32	1147	8166221802198831	CMakeFiles/SPI_W25Q64.dir/Core/Src/main.c.obj	705bda7a51d54643
+11	645	8166283721723966	CMakeFiles/SPI_W25Q64.dir/Core/Src/main.c.obj	705bda7a51d54643
 91	1251	8166221802781817	CMakeFiles/SPI_W25Q64.dir/Core/Src/gpio.c.obj	5ad09eac01940567
 153	1322	8166221803408297	CMakeFiles/SPI_W25Q64.dir/Core/Src/dma.c.obj	34c8ddd452ce9a49
 200	1403	8166221803873996	CMakeFiles/SPI_W25Q64.dir/Core/Src/i2c.c.obj	cb5237d65d3e66ed
@@ -25,13 +25,9 @@
 1620	2675	8166221818084624	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	180b5e6b10b2994
 1679	2692	8166221818674653	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	e5a1f2341e8b7f88
 1771	2841	8166221819594571	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj	783c6795a82ef7a5
-638	1444	8166230552188388	SPI_W25Q64.elf	2b3a9eff1b8e441c
-41	439	8166230546220850	CMakeFiles/SPI_W25Q64.dir/User/Src/W25Q64.c.obj	9a74b35c6959a14b
-36	706	8166247341934353	build.ninja	cb3ef51647831fc1
-36	706	8166247341333109	D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake_install.cmake	cb3ef51647831fc1
-36	706	8166247341540531	D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake/stm32cubemx/cmake_install.cmake	cb3ef51647831fc1
-90	637	8166230546737076	CMakeFiles/SPI_W25Q64.dir/User/Src/MySPI.c.obj	8e92635e6a2d1da8
-12	3610	8166280609179002	CMakeFiles/SPI_W25Q64.dir/Core/Src/main.c.obj	705bda7a51d54643
-3613	5685	8166280645172921	SPI_W25Q64.elf	2b3a9eff1b8e441c
-11	645	8166283721723966	CMakeFiles/SPI_W25Q64.dir/Core/Src/main.c.obj	705bda7a51d54643
 647	1456	8166283728058133	SPI_W25Q64.elf	2b3a9eff1b8e441c
+41	439	8166230546220850	CMakeFiles/SPI_W25Q64.dir/User/Src/W25Q64.c.obj	9a74b35c6959a14b
+36	706	8167921451296233	build.ninja	cb3ef51647831fc1
+36	706	8167921450850609	D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake_install.cmake	cb3ef51647831fc1
+36	706	8167921451031233	D:/STM32CubeMX/Project/Local_Project/STM32_HAL_Learning/SPI_W25Q64/build/Debug/cmake/stm32cubemx/cmake_install.cmake	cb3ef51647831fc1
+90	637	8166230546737076	CMakeFiles/SPI_W25Q64.dir/User/Src/MySPI.c.obj	8e92635e6a2d1da8
